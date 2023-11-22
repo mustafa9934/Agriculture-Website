@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Freehand&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+  --color-teel: #274c5b;
+  --color-green: #7eb693;
+  --color-yellow: #efd372;
+  --color-grey: #d4d4d4;
+  --color-white: #f9f8f8;
+  --color-daark: #1b2427;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  color: var(--color-daark);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0rem 1.5rem;
+}
+.section_header_title_2 {
+  font-family: "Freehand", cursive;
+}
